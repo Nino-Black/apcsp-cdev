@@ -5,13 +5,15 @@ int main()
 {
 
 char str1[27];
- for (i = 0; i < 26; i++) {
+ for (int i = 0; i < 26; i ++)
+ {
   str1[i] = 'a' + i;
  }
 
  char * mstr = str1
 
- for (i = 0; i < 26; i++) {
+ for (int i = 0; i < 26; i ++)
+ {
   str1[i] = str1[i] -  32;
  }
 
